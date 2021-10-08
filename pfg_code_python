@@ -1,0 +1,17 @@
+name=input("insert first name:")
+lastname=input("insert last name:")
+year=input("insert year the patient was attended the first time:")
+dateofbirth=input("insert date ddmmyy:")
+sex=input("M or F:")
+patient_file= (name[0:2]+lastname[0:2]+"-"+year[0:]+"-"+ dateofbirth[0:]+sex[0])
+
+print(patient_file)
+
+###TEST
+insert first name:Juanito
+insert last name:Gonzalez
+insert year the patient was attended the first time:2021
+insert date ddmmyy:111198
+M or F:M
+JuGo-2021-111198M
+### CORRECT!!
